@@ -19,7 +19,7 @@ function Room() {
   }
 
   return (
-    <main className='md:flex md:min-h-[500px] lg:min-h-[455px]'>
+    <main className='md:flex md:min-h-[65%] xl:min-h-[60%]'>
       <RoomImage
         room={room}
         handleNextRoom={handleNextRoom}

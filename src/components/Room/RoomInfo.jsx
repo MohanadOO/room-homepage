@@ -8,7 +8,7 @@ function RoomInfo({ room, handleNextRoom, handlePreviousRoom }) {
       <h1 className='font-bold text-3xl lg:text-5xl leading-7'>
         {RoomData.roomsInfo[room].title}
       </h1>
-      <p className='text-primary-dark-gray/50 text-sm font-semibold'>
+      <p className='text-primary-dark-gray/50 text-sm 2xl:text-base font-semibold'>
         {RoomData.roomsInfo[room].details}
       </p>
       <div className='flex items-center gap-5 '>
